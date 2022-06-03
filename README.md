@@ -1,1 +1,4 @@
-# pricetracking_web_app
+Django-WildBerries-price-monitor
+===========================
+
+Monitors prices of WildBerries products using scraping techniques.
