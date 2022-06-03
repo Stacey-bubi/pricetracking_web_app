@@ -13,7 +13,7 @@ def data_safari(url):
     browser = webdriver.safari.webdriver.WebDriver(quiet=False)
     browser.get(url)
 
-    time.sleep(0.6)
+    time.sleep(2)
 
     name = browser.find_element(By.CLASS_NAME, "same-part-kt__header").text
     raw_price = browser.find_element(By.CLASS_NAME, "price-block__final-price").text
