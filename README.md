@@ -1,4 +1,3 @@
-.. contents:: Table of Contents
 
 Django-WildBerries-price-monitor
 ===========================
@@ -15,17 +14,6 @@ consists basically of these parts:
 -  Frontend components
 -  Backend components
 
-
-Models
-~~~~~~
-
--  Product
-
-   -  representation of an Amazon product
-
--  Accounts*
-
-   -  (in development)
 
 Frontend components
 ~~~~~~~~~~~~~~~~~~~
