@@ -21,6 +21,6 @@ app.autodiscover_tasks()
 app.conf.beat_schedule = {
     'check_for_updates': {
         'task': 'product.tasks.track_for_discount',
-        'schedule': crontab(),  # change to `crontab(minute=0, hour=0)` if you want it to run daily at midnight
+        'schedule': crontab(minute=0, hour='*/3'), 
     },
 }
