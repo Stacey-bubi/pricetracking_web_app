@@ -6,6 +6,7 @@ import time
 from bs4 import BeautifulSoup
 import requests
 from urllib.request import urlopen, Request
+from .models import Link
 
 
 
@@ -105,8 +106,19 @@ def data_safari(url):
 
     return name, price, jpg
 
-print(data_safari(url))
+#print(data_safari(url))
 #data_safari(url)
 #print(get_link_data(url))
 #info = get_data(url)
 #print(info[1])
+def track_for_discount():
+    items = Link.objects.all()  #take a list of existed items
+    print(items)
+    for item in items:
+        data = get_data(item.url)
+        if data[1] < item.current_price:
+            item_discount = Link.objects.get(id=item.id)  #take particular object
+            item_discount.old_price = item_discount.current_price
+            item_discount.current_price = data[1]
+            item_discount.save(update_fields=['current_price, old_price'])
+#track_for_discount()

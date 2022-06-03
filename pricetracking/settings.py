@@ -128,5 +128,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 #celery configuration
-CELERY_BROKER_URL = 'amqp://localhost'
+
+CELERY_BROKER_URL = 'redis://localhost:6379'
 
