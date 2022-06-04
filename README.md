@@ -29,3 +29,12 @@ The features are the following:
 -  delete products
 -  update prices by button
 -  update prices every 3 hours in "offline"
+
+Future tasks and features 🪧
+- [x] Updating server in "offline regime"
+- [ ] Search function
+- [ ] Ability to monitor a product
+- [ ] Notifications via email
+- [ ] Accounts for users
+- [ ] Make a live server :tada:
+
