@@ -31,6 +31,7 @@ The features are the following:
 -  update prices every 3 hours in "offline"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Future tasks and features:
+-------------------
 - [x] Updating server in "offline regime"
 - [ ] Search function
 - [ ] Ability to monitor a product
