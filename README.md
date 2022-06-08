@@ -1,9 +1,9 @@
-<img width="887" alt="Screenshot 2022-06-05 at 2 06 00 PM" src="https://user-images.githubusercontent.com/70976550/172663246-6493b0a7-e269-48bf-a675-426c3442ea25.png">
-
 Django-WildBerries-price-monitor
 ===========================
 
 Monitors prices of WildBerries products using scraping techniques.
+
+<img width="600" alt="Screenshot 2022-06-05 at 2 06 00 PM" src="https://user-images.githubusercontent.com/70976550/172663246-6493b0a7-e269-48bf-a675-426c3442ea25.png">
 
 Basic structure
 ---------------
