@@ -1,4 +1,4 @@
-Django-WildBerries-price-monitor
+Django-WildBerries-pricetracker
 ===========================
 
 Monitors prices of WildBerries products using scraping techniques.
